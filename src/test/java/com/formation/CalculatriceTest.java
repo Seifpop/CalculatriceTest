@@ -18,6 +18,7 @@ public class CalculatriceTest {
         "8,5,3",
         "3,5,-2",
         "0,0,0",
+        "-2,-3,1",
     })
     public void testSoustraire(int a, int b, int expected) {
         Calculatrice calculatrice = new Calculatrice();
