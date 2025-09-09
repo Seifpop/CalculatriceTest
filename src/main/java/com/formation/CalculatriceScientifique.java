@@ -4,9 +4,11 @@ public class CalculatriceScientifique {
     private final ICalculette iCalculette;
 
     public CalculatriceScientifique(ICalculette iCalculette) {
+
         this.iCalculette = iCalculette;
     }
-    public int carre (int nombre){
-        return iCalculette.multiplier(nombre, nombre);
+    public int carre (int number){
+
+        return iCalculette.multiplier(number, number);
     }
 }
