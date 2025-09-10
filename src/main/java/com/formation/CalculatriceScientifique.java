@@ -7,8 +7,8 @@ public class CalculatriceScientifique {
 
         this.iCalculette = iCalculette;
     }
-    public int carre (int number){
+    public int carre (int a){
 
-        return iCalculette.multiplier(number, number);
+        return iCalculette.multiplier(a, a);
     }
 }
